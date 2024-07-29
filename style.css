@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right,#9cecfb,#65c7f7,#0052d4);
+}
+
+h1{
+    text-align: center;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5vw;
+}
+
+button{
+    color:black;
+    font-size: 2vw;
+    padding: 1vw;
+    margin: 2vw;
+    border-radius: 1.5vw;
+}
+
+#btn{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
